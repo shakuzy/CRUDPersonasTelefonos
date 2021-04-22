@@ -54,5 +54,17 @@ namespace Datos
                 c.SaveChanges();
             }
         }
+
+        public void EliminarTodoslosTelefoos(List<Telefonos> lista)
+        {
+            using (EjercicioWinEntities1 c = new EjercicioWinEntities1())
+            {
+                for (int i = 0; i < lista.Count; i++)
+                {
+                    c.Entry(lista[i]).State = System.Data.Entity.EntityState.Deleted;
+                    c.SaveChanges();
+                }
+            }
+        }
     }
 }

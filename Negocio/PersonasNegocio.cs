@@ -11,6 +11,7 @@ namespace Negocio
    public class PersonasNegocio
     {
         PersonasDatos o = new PersonasDatos();
+        TelefonosDatos t = new TelefonosDatos();
         public IEnumerable<Personas> ObtenerPersonas()
         {
            IEnumerable<Personas> Lista = o.ConsultarPersonas();
@@ -35,7 +36,10 @@ namespace Negocio
 
         public void Eliminar(Personas p)
         {
+            List<Telefonos> telefono = t.todosLosTelefonos(p.PersonaID);
+
             o.Eliminar(p);
+            t.EliminarTodoslosTelefoos(telefono);
         }
 
         public IEnumerable<Personas> filtrarPersonas(string s)
