@@ -1,0 +1,12 @@
+C:\Users\Matias\source\repos\EjercicioWin\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\Matias\source\repos\EjercicioWin\Entidades\bin\Debug\Entidades.dll
+C:\Users\Matias\source\repos\EjercicioWin\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Matias\source\repos\EjercicioWin\Entidades\bin\Debug\EntityFramework.dll
+C:\Users\Matias\source\repos\EjercicioWin\Entidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Matias\source\repos\EjercicioWin\Entidades\bin\Debug\EntityFramework.xml
+C:\Users\Matias\source\repos\EjercicioWin\Entidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Matias\source\repos\EjercicioWin\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Matias\source\repos\EjercicioWin\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Matias\source\repos\EjercicioWin\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+C:\Users\Matias\source\repos\EjercicioWin\Entidades\obj\Debug\Entidades.dll
+C:\Users\Matias\source\repos\EjercicioWin\Entidades\obj\Debug\Entidades.pdb

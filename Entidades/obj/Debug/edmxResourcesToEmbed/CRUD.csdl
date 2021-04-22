@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EjercicioWinModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Personas">
+    <Key>
+      <PropertyRef Name="PersonaID" />
+    </Key>
+    <Property Name="PersonaID" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FechaNacimiento" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreditoMaximo" Type="Decimal" Precision="20" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Telefonos">
+    <Key>
+      <PropertyRef Name="TelefonoID" />
+    </Key>
+    <Property Name="TelefonoID" Type="Int32" Nullable="false" />
+    <Property Name="PersonaID" Type="Int32" Nullable="false" />
+    <Property Name="Telefono" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="EjercicioWinEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Personas" EntityType="Self.Personas" />
+    <EntitySet Name="Telefonos" EntityType="Self.Telefonos" />
+  </EntityContainer>
+</Schema>

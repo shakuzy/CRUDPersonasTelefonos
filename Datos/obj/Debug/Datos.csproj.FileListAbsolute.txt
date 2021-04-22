@@ -1,0 +1,15 @@
+C:\Users\Matias\source\repos\EjercicioWin\Datos\bin\Debug\Datos.dll.config
+C:\Users\Matias\source\repos\EjercicioWin\Datos\bin\Debug\Datos.dll
+C:\Users\Matias\source\repos\EjercicioWin\Datos\bin\Debug\Datos.pdb
+C:\Users\Matias\source\repos\EjercicioWin\Datos\bin\Debug\Entidades.dll
+C:\Users\Matias\source\repos\EjercicioWin\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Matias\source\repos\EjercicioWin\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Matias\source\repos\EjercicioWin\Datos\bin\Debug\Entidades.pdb
+C:\Users\Matias\source\repos\EjercicioWin\Datos\bin\Debug\Entidades.dll.config
+C:\Users\Matias\source\repos\EjercicioWin\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Matias\source\repos\EjercicioWin\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Matias\source\repos\EjercicioWin\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
+C:\Users\Matias\source\repos\EjercicioWin\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Matias\source\repos\EjercicioWin\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\Matias\source\repos\EjercicioWin\Datos\obj\Debug\Datos.dll
+C:\Users\Matias\source\repos\EjercicioWin\Datos\obj\Debug\Datos.pdb
