@@ -160,7 +160,7 @@ namespace EjercicioWin
             this.Controls.Add(this.lblPersonaID);
             this.Name = "AgregarForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AgregarForm";
+            this.Text = "Agregar Persona";
             this.ResumeLayout(false);
             this.PerformLayout();
 

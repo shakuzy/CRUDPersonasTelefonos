@@ -162,7 +162,7 @@ namespace EjercicioWin
             this.Controls.Add(this.lblNombre);
             this.Name = "CRUDPersonas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "CRUDPersonas";
             this.Load += new System.EventHandler(this.CRUDPersonas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

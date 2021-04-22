@@ -85,7 +85,7 @@ namespace EjercicioWin
             this.Controls.Add(this.lblTelefono);
             this.Name = "EditarTelefonos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "EditarTelefonos";
+            this.Text = "Editar Telefonos";
             this.ResumeLayout(false);
             this.PerformLayout();
 

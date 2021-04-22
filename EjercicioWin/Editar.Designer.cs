@@ -127,7 +127,7 @@ namespace EjercicioWin
             this.Controls.Add(this.lblNombre);
             this.Name = "Editar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Editar";
+            this.Text = "Editar Persona";
             this.ResumeLayout(false);
             this.PerformLayout();
 

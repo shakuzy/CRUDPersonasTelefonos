@@ -106,7 +106,7 @@ namespace EjercicioWin
             this.Controls.Add(this.lblTelefonoID);
             this.Name = "AgregarTelefonos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AgregarTelefonos";
+            this.Text = "Agregar Telefonos";
             this.ResumeLayout(false);
             this.PerformLayout();
 
