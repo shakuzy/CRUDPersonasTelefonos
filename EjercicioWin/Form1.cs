@@ -29,10 +29,7 @@ namespace EjercicioWin
         {
             var e = o.ObtenerPersonas();
             dataGridView1.DataSource = e;
-            if (dataGridView1.Rows.Count == 0)
-            {
-                lblMensaje.Text = "";
-            }
+            
             
         }
 
@@ -93,10 +90,7 @@ namespace EjercicioWin
             {
                 var f = o.filtrarPersonas(txtNombre.Text.ToString());
                 dataGridView1.DataSource = f;
-                if (dataGridView1.Rows.Count == 0)
-                {
-                    lblMensaje.Text = "";
-                }
+               
             }
         }
 

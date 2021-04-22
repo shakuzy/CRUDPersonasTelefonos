@@ -37,7 +37,6 @@ namespace EjercicioWin
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnBorrar = new System.Windows.Forms.Button();
             this.btnTelefonos = new System.Windows.Forms.Button();
-            this.lblMensaje = new System.Windows.Forms.Label();
             this.btnLimpiarFiltro = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -124,17 +123,6 @@ namespace EjercicioWin
             this.btnTelefonos.UseVisualStyleBackColor = true;
             this.btnTelefonos.Click += new System.EventHandler(this.btnTelefonos_Click);
             // 
-            // lblMensaje
-            // 
-            this.lblMensaje.AutoSize = true;
-            this.lblMensaje.Font = new System.Drawing.Font("Liberation Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMensaje.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.lblMensaje.Location = new System.Drawing.Point(47, 119);
-            this.lblMensaje.Name = "lblMensaje";
-            this.lblMensaje.Size = new System.Drawing.Size(408, 17);
-            this.lblMensaje.TabIndex = 9;
-            this.lblMensaje.Text = "Haga doble click en el Nombre de la fila que desea editar.";
-            // 
             // btnLimpiarFiltro
             // 
             this.btnLimpiarFiltro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -164,7 +152,6 @@ namespace EjercicioWin
             this.ClientSize = new System.Drawing.Size(492, 349);
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.btnLimpiarFiltro);
-            this.Controls.Add(this.lblMensaje);
             this.Controls.Add(this.btnTelefonos);
             this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.btnAgregar);
@@ -193,7 +180,6 @@ namespace EjercicioWin
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnBorrar;
         private System.Windows.Forms.Button btnTelefonos;
-        private System.Windows.Forms.Label lblMensaje;
         private System.Windows.Forms.Button btnLimpiarFiltro;
         private System.Windows.Forms.Button btnEditar;
     }

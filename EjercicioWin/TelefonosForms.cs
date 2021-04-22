@@ -29,10 +29,7 @@ namespace EjercicioWin
             this.identificador = id;
             var e = o.ObtenerTelefonos(id);
             dataGridView1.DataSource = e;
-            if (dataGridView1.Rows.Count == 0)
-            {
-                lblMensaje.Text = "";
-            }
+            
         }
         private void btnAgregar_Click(object sender, EventArgs e)
         {

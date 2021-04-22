@@ -29,7 +29,6 @@ namespace EjercicioWin
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblMensaje = new System.Windows.Forms.Label();
             this.btnVolver = new System.Windows.Forms.Button();
             this.btnBorrar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
@@ -37,17 +36,6 @@ namespace EjercicioWin
             this.btnEditar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // lblMensaje
-            // 
-            this.lblMensaje.AutoSize = true;
-            this.lblMensaje.Font = new System.Drawing.Font("Liberation Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMensaje.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.lblMensaje.Location = new System.Drawing.Point(88, 65);
-            this.lblMensaje.Name = "lblMensaje";
-            this.lblMensaje.Size = new System.Drawing.Size(272, 17);
-            this.lblMensaje.TabIndex = 14;
-            this.lblMensaje.Text = "Elija la fila que desee eliminar o editar";
             // 
             // btnVolver
             // 
@@ -109,7 +97,6 @@ namespace EjercicioWin
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(492, 349);
             this.Controls.Add(this.btnEditar);
-            this.Controls.Add(this.lblMensaje);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.btnAgregar);
@@ -119,13 +106,10 @@ namespace EjercicioWin
             this.Text = "TelefonosForms";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lblMensaje;
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Button btnBorrar;
         private System.Windows.Forms.Button btnAgregar;
